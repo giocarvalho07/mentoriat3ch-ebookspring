@@ -19,7 +19,7 @@ public class EbookJavaController {
         return "index";
     }
 
-    @PostMapping("/mT3ch-ebook-java")
+    @PostMapping("/mT3ch-ebook-spring-mvc")
     public String cadastrarEbook(EbookJava ebookWeb) {
         ebookJavaService.criarLead(ebookWeb);
         return "pages/ebook";
